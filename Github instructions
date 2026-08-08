@@ -1,0 +1,5 @@
+How to save to github tutorial:
+1. open terminal
+2. type "git add ."
+3. type "git commit -m "example"
+4. type "git push"

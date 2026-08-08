@@ -71,6 +71,8 @@
         </section>
 
     </main>
+<button onclick="myFunction()">Toggle dark mode</button>
+
 
     <footer>
         <p>&copy; 2026 Alan Feng</p>
@@ -78,3 +80,16 @@
 
 </body>
 </html>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+
+   document.querySelector("header").classList.toggle("dark-mode");
+   document.querySelector("section").classList.toggle("dark-mode");
+   document.querySelector("footer").classList.toggle("dark-mode");
+   document.querySelector(".card").classList.toggle("dark-mode");
+   document.querySelector("section h2").classList.toggle("dark-mode");
+}
+
+</script>
